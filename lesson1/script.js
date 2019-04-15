@@ -55,3 +55,25 @@ console.log("2" === 2);
 let isChecked = true,
 isClose = false;
 console.log(isChecked || isClose);
+
+
+
+
+
+let money = prompt("Ваш бюджет на месяц?",'');
+let time = prompt("Введите дату в формате YYYY-MM-DD",'');
+console.log(money);
+
+let appData = {
+    money: money,
+    timeData: time,
+    expenses: {},
+    optionalExpenses: {},
+    income: [],
+    savings: false
+};
+alert (appData);
+let a1 = prompt('Введите обязательную статью расходов в этом месяце','');
+let a2 = prompt('Введите обязательную статью расходов в этом месяце','');
+let a3 = prompt('Во сколько обойдется?','');
+let a4 = prompt('Во сколько обойдется?','');
